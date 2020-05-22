@@ -1,0 +1,104 @@
+
+.postContainer{
+    width:90%;
+    background-color: rgb(80, 130, 224);
+    border: dimgray 5px;
+    margin: 10px auto;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+.postTitle{
+    font-family: 'Baloo Paaji 2';
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.postBody{
+    font-family: 'Baloo Paaji 2';
+    font-weight: 500;
+}
+
+.postTab{
+    display: inline-grid;
+    width: 65%;
+}
+
+.postContainerTitle{
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Baloo Paaji 2';
+    font-weight: 700;
+    font-style: bold;
+}
+
+.addFavouriteButton{
+    padding: 10px;
+    background-color: rgb(78, 78, 78);
+    border: none;
+    border-radius: 10px;
+    float: right;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: medium;
+    color: rgb(255, 255, 255);  
+    cursor: pointer;
+}
+
+.addFavouriteButton:hover {
+    background-color:rgb(94, 94, 94) ;
+}
+
+
+
+.favouritePostContainer{
+    width:80%;
+    background-color: rgb(247, 146, 78);
+    border: dimgray 5px;
+    margin: 10px auto;
+    padding: 20px 40px;
+    border-radius: 10px;
+}
+
+.favouritePostTab{
+    display: inline-grid;
+    width:30%;
+    float: right;
+}
+
+.favouritePostContainerTitle{
+    text-align: center;
+    font-family: 'Baloo Paaji 2';
+    font-weight: 700;
+    font-style: bold;
+}
+
+.favouritePostTitle{
+    font-family: 'Baloo Paaji 2';
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 30px;
+}
+
+.favouritePostBody{
+    font-family: 'Baloo Paaji 2';
+    font-weight: 500;
+}
+
+.noFavouritePost{
+    color: slategrey;
+    margin: 30px auto;
+    font-size: 30px;
+    font-family: 'Baloo Paaji 2';
+    font-weight: 500;
+}
+
+@media(max-width:1000px){
+    .favouritePostContainer{
+        display: none;
+    }
+
+    .postTab{
+        width: 100%;
+    }
+}
